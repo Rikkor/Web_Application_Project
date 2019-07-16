@@ -1,0 +1,71 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+/******************
+ADD FONT FOR BODY
+******************/
+
+    html {
+    	font-family: 'Raleway' , sans-serif;
+    	font-size: 16px;
+    	color: #555;
+    }
+
+
+/******************
+ADD CSS FOR UL
+******************/
+
+    ul, nav {
+	   list-style: none;
+    }
+
+/******************
+ADD CSS FOR FOOTER
+******************/
+
+    footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+	  color: #fff;
+	  background-color: #131633;
+      background: linear-gradient(to bottom, #284e7a 1%,#000000 100%);
+	  padding: 60px 0;
+    }
+
+    footer ul {
+        display: flex;
+        margin-bottom:  25px;
+            
+    }
+
+    footer ul li {
+        margin: 0 8px;
+    }
+        
+    footer ul li a {
+        font-size: 36px;
+        color: white;
+        cursor: pointer;
+    }
+
+    footer p {
+        text-transform: uppercase;
+        font-size: 14px;
+        color: rgba(255,255,255,0.6);
+        margin-bottom: 10px;
+    }
+    
+    @media (max-width: 800px){
+
+        footer {
+            padding: 80px 15px;
+        }
+
+    }
