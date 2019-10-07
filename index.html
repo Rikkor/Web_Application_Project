@@ -1,26 +1,145 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset = "UTF-8">
-        <meta name = "viewport" content = "width=device-width, intitial-scale=1">
-        <title>Test Page</title>
-        <link rel = "shortcut icon" type = "image/ico" href="img/favicon.ico"/>
-        <link href = "https://fonts.googleapis.com/css?family=Oswald|Raleway" rel = "stylesheet">
-        <script defer src = "https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-        <!--<link rel = "stylesheet" href = "http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">-->
-        <link rel = "stylesheet" href = "styles.css">
-    </head>
-    <body>
-        <p> testing out body of text</p>
-        <footer>
-            <ul>
-                <li><a href = "#"  target = "_blank"><i class = "fab fa-twitter-square"></i></a></li>
-                <li><a href = "#"  target = "_blank"><i class = "fab fa-facebook-square"></i></a></li>
-                <li><a href = "#"  target = "_blank"><i class = "fab fa-youtube-square"></i></a></li>
-                <li><a href = "#"  target = "_blank"><i class = "fab fa-pinterest-square"></i></a></li>
-            </ul>
-            <p>&copy; <script>document.write(new Date().getFullYear());</script> It sure is fun to create websites</p>
-            <p>"Tell me and I Forget, teach me and blah blah"</p>
-                </footer>
-    </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eric Brich's Programming Portfolio</title>
+  <link rel="shortcut icon" type="image/ico" href="img/icon.png">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+  <style>
+  </style>
+</head>
+
+<body id="home">
+  <header>
+    <h2>Eric Brich</a></h2>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About Me</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- ******************************** -->
+  <div id="hero">
+    <div class="background-image"></div>
+    <h1>Programming Portfolio<br>Eric Brich</h1>
+
+  </div>
+  <!-- ******************************** -->
+  <div id="gallery" class="photo-gallery">
+    <h3 class="title"><br>Gallery</h3>
+    <p>Here are some example images from sites I have worked on or created. There are also a couple of images from the game I am working on currently, SRPG.</p>
+    <ul class="grid">
+      <li class="small" style="background-image: url('img/gl1.png');"></li>
+      <li class="large" style="background-image: url('img/gl2.png');"></li>
+      <li class="small" style="background-image: url('img/gl3.png');"></li>
+      <li class="large" style="background-image: url('img/gl4.png');"></li>
+    </ul>
+  </div>
+  <!-- ******************************** -->
+  <div id="getting-around">
+  	<hr>
+    <h3 class="title">Projects</h3>
+    <p>Here are some of the more notable projects I have worked on. Please click on the icons to see more about that project. <br>
+    	<br>There are icons for github, heroku, site previews and an image to help you see what the projects look like.
+    </p><br>
+    <ul class="grid">
+      <li>
+      	<a href="https://github.com/Rikkor/cs313-php/tree/master/web/project1" target="_blank"><img src="https://img.icons8.com/color/48/000000/github--v1.png"></i></a>
+      	<a href="" target="_blank"><img src="https://img.icons8.com/color/48/000000/image.png"></i></a>
+        <h4>Macro App "Mac Attack"</h4>
+        <p>This is an app that was created in Android Studio using Java. A user can log into their Dropbox via the app, and can send macros<br><br>
+        	from the app to any computer that is logged into their Dropbox. It uses a combination of Dropbox API along with Autohotkey to accomplish this.</p>
+      </li>
+      <li>
+      	<a href="https://dry-spire-10271.herokuapp.com/web/project1/home.php" target="_blank"><img src="https://img.icons8.com/color/48/000000/heroku.png"></i></a>
+      	<a href="https://github.com/Rikkor/cs313-php/tree/master/web/project1" target="_blank"><img src="https://img.icons8.com/color/48/000000/github--v1.png"></i></a>
+      	<a href="" target="_blank"><img src="https://img.icons8.com/color/48/000000/image.png"></i></a>
+        <h4>PHP-Based Storefront</h4>
+        <p>This was a page I did for school, but exercised a lot of creativity on. We were supposed to design a page with loose directions using PHP.<br><br>
+        	It uses a live database (PostgreSQL) via Heroku and has a fully working login/registration system.</p>
+      </li>
+      <li>
+      	<a href="https://rikkor.github.io/CIT261/assignment6.html" target="_blank"><img src="https://img.icons8.com/color/48/000000/web.png"></i></a>
+      	<a href="https://github.com/Rikkor/CIT261/blob/master/assignment6.html" target="_blank"><img src="https://img.icons8.com/color/48/000000/github--v1.png"></i></a>
+      	<a href="" target="_blank"><img src="https://img.icons8.com/color/48/000000/image.png"></i></a>
+        <h4>Javascript Soundboard</h4>
+        <p>While this was a school assignment, it's something I'm very proud of. We were asked to use Javascript events, and a few other topics. <br><br>
+        	This could be done with multiple websites or with one using a combination of the, for a total of 13 topics. I made this soundboard completely
+       		from my own ideas without directions.<br><br>
+   			It uses royalty-free piano sounds and a looping system I came up with to allow users to make a playlist out of the soundboard itself.</p>
+      </li>
+      <li>
+      	<a href="https://rikkor.github.io/CIT261/final_project/studioGhibli.html" target="_blank"><img src="https://img.icons8.com/color/48/000000/web.png"></i></a>
+      	<a href="img/sg.png" target="_blank"><img src="https://img.icons8.com/color/48/000000/image.png"></i></a>
+        <h4>Studio Ghibli Fan Site</h4>
+        <p>I made this site as a final project for my web development class, but there were no other guidelines besides using an API and somehow 
+        	making use of CSS.<br><br>
+    		I'm proud of the styling and minimalist style that was used to present Studio Ghibli's API in an aesthetic way. I am a huge fan of Studio Ghibli
+    		and wanted to make this tribute.</p>
+      </li>
+      <li><a href="https://sites.google.com/site/summonersrpglibrary/home" target="_blank"><img src="https://i.imgur.com/HusutNk.png"></i></a>
+      	<a href="img/srpg2.png" target="_blank"><img src="https://img.icons8.com/color/48/000000/image.png"></i></a>
+      	<a href="img/srpg.png" target="_blank"><img src="https://img.icons8.com/color/48/000000/image.png"></i></a>
+        <h4>Summoner's RPG "SRPG"</h4>
+        <p>This is an on-going project using RPG Maker and Javascript that I am working on with my younger brother. It's an ambitious open-world game
+        	that is a fusion of monster-hunting/taming and a card-game.<br><br>
+    		We are continuing to work on it, but this game has pushed me to learn creative means and solutions for problems I come across.</p>
+      </li>
+    </ul>
+    <hr>
+  </div>
+  <!-- ******************************** -->
+  <div id="about">
+    <h3 class="title">About Me</h3>
+    <div id="two-cols">
+      <div class="about-img"><img src="img/me.jpg" alt="thumbs up"></div>
+      <div class="about-bio">
+        <p>Hey there~! My name is Eric Brich and I am currently a student at BYU-I (Brigham Young University - Idaho) just about to finish up my studies. 
+        I'm studying to get a bachelors in Software Engineering.<br>
+        <br>Aspiring developer. Looking to get into software or web development. I do game developing on the side as a hobby with my younger brother. I love
+        working on software and web apps!<br>
+        <br>I am a fan of video games, reading, skateboarding and technology. Always looking for ways I can think outside the box and come up with creative solutions
+    	for life's daily problems in programming and everything else.<br>
+    	<br>Skilled in CSS, HTML, Javascript, Node.js, C++, Java & PHP</p>
+      </div>
+      <p>&nbsp;</p>
+    </div>
+  </div>
+  <!-- ******************************** -->
+  <footer id="links">
+    <ul>
+      <li><a href="https://www.linkedin.com/in/ericbrich/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+      <li><a href="https://github.com/Rikkor" target="_blank"><i class="fab fa-github-square"></i></a></li>
+    </ul>
+    <p>&ldquo;It's not a question of can or can't...in life there are some things you just do&rdquo; &mdash;
+    Claire Farron 'Lightning'</p>
+    <p>&copy; <script>document.write(new Date().getFullYear())</script></p>
+  </footer>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('a[href^="#"]').on('click', function(e) {
+        e.preventDefault();
+
+        var target = this.hash;
+        var $target = $(target);
+
+        $('html, body').stop().animate({
+          'scrollTop': $target.offset().top - 100
+        }, 900, 'swing', function() {
+          window.location.hash = target - 100;
+        });
+      });
+    });
+  </script>
+  
+</body>
+
 </html>
